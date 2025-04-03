@@ -1,0 +1,44 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    background-color: #343a40;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+  }
+  
+  .sidebar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    padding-bottom: 4px;
+  }
+  
+  .sidebar-brand {
+    color: white;
+  }
+  
+  .menu-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .menu-link.active {
+    color: #0069d9;
+    box-shadow: 0px 0px 4px rgba(71, 91, 232, 0.04);
+  }
+  
+  .menu-link-icon {
+    margin-right: 10px;
+  }
+  

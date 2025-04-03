@@ -14,7 +14,8 @@
       "mysql2": "^3.14.0"
    },
    "scripts": {
-      "start": "ts-node src/index.ts",
+      "build": "tsc",
+      "dev": "ts-node-dev src/server.ts",
       "typeorm": "typeorm-ts-node-commonjs"
    }
 }

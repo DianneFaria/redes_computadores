@@ -1,0 +1,192 @@
+.card-container {
+    background-color: #1F48AA;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    margin-top: 50px;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .title {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+  
+  .sub-title {
+    text-align: left;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+  
+  .label-container {
+    margin-bottom: 16px;
+  }
+  
+  .label-container label {
+    display: block;
+    color: #f1f1f1;
+  }
+  
+  .label-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    color: #333;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .button-register {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 32px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #0069d9;
+  }
+  
+  .error-message, 
+  .success-message {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  .error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+  .success-message {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .dropdown:hover {
+    background-color: #e0e0e0;
+  }
+
+  .title-list {
+    margin-top: 20px;
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: black;
+  }
+  
+  .table-container {
+    width: 700px;
+    background-color: white;
+  }
+  
+  .top-table {
+    background-color: #f4f6f9;
+    font-weight: bold;
+  }
+  
+  .top-table th, .body-table td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .body-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .body-table tr:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .line-table {
+    position: relative;
+  }
+  
+  table > td {
+    word-wrap: break-word;
+  }
+  
+  .empty-list {
+    padding: 16px;
+    border-radius: 8px;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  
+  .scroll-tabela {
+    overflow-y: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+  }
+  
+  .confirm-button {
+    width: 200px;
+    padding: 10px;
+    background-color: #293f69;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-button:hover {
+    background-color: #4a5f9b;
+  }
+  
+  .cancel-button {
+    width: 200px;
+    padding: 10px;
+    background-color: #882b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c95151;
+  }
+  

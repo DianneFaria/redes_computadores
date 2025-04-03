@@ -28,13 +28,14 @@ class UserController {
         return response.status(201).json(user);
     }
 
-    async updatePassword(request: Request, response: Response) {
+    async update(request: Request, response: Response) {
+        const { id } = request.params;
         const { nome, email } = request.body;
     
         const userRepository = AppDataSource.getRepository(User);
     
         try {
-            const user = await userRepository.findOneBy({ email });
+            const user = await userRepository.findOneBy({ id: Number(id) });
     
             if (!user) {
                 return response.status(404).json({ message: 'Usuário não encontrado' });
