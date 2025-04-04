@@ -9,9 +9,11 @@
       "typescript": "^5.8.2"
    },
    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^5.1.0",
+      "mysql2": "^3.14.0",
       "reflect-metadata": "^0.2.2",
-      "typeorm": "0.3.22",
-      "mysql2": "^3.14.0"
+      "typeorm": "0.3.22"
    },
    "scripts": {
       "build": "tsc",
