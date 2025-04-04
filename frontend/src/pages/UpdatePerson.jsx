@@ -54,7 +54,7 @@ function UpdatePerson() {
                 <input 
                     value={updatePerson.email} 
                     onChange={(e) => setUpdatePerson({ ...updatePerson, email: e.target.value })} 
-                    placeholder="Idade" />
+                    placeholder="Email" />
             </div>
           
             {error && <p className="error-message">{error}</p>}
