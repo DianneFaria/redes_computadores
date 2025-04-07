@@ -10,7 +10,7 @@ RUN npm install
 COPY . .
 
 # Expõe a porta do app
-EXPOSE 4444
+EXPOSE 3333
 
 # Roda o servidor com ts-node-dev
 CMD ["npx", "ts-node-dev", "src/server.ts"]
