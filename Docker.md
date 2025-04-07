@@ -26,7 +26,7 @@ Neste passo a passo, vamos criar uma instância que servirá como base para roda
 Abra o **PowerShell** como administrador e navegue até o diretório onde sua chave SSH está salva:
 
 ```bash
-cd C:\Users\pedro\Downloads
+cd C:\Users\diann\Downloads
 ```
 
 Execute o seguinte comando para acessar a instância:
