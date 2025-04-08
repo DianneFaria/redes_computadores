@@ -216,7 +216,7 @@ docker-compose down
 ```
 
 ```bash
-docker-compose -f compose.yaml up --build -d
+docker-compose -f docker-compose.yml up --build -d
 ```
 
 ---
