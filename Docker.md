@@ -115,9 +115,6 @@ services:
       - "80:80"
     depends_on:
       - backend
-
-volumes:
-  db_data:
 ```
 
 ---
