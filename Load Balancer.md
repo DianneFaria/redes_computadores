@@ -83,11 +83,11 @@ http {
     server {
         listen 8080;
 
-        location /api/ {
-            proxy_pass http://backend_servers;
-            proxy_set_header Host $host;
-            proxy_set_header X-Real-IP $remote_addr;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        location /api/ { 
+            proxy_pass http://backend_servers; # Encaminha a requisição para os servidores do backend
+            proxy_set_header Host $host; # Nome do host original
+            proxy_set_header X-Real-IP $remote_addr; # IP real do cliente que fez a requisição
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; # Lista de IPs por onde a requisição passou
         }
 
         location / {
